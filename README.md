@@ -103,11 +103,11 @@ $ ./setup.sh
 
 ```
 run {
-		fallback-icon: "application-x-addon";
-	}
-	drun {
-		fallback-icon: "application-x-addon";
-	}
+	fallback-icon: "application-x-addon";
+}
+drun {
+	fallback-icon: "application-x-addon";
+}
 ```
 
 > **Note** : These themes are like an ecosystem, everything here is connected with each other in some way. So... before modifying anything by your own, make sure you know what you doing.
@@ -117,9 +117,7 @@ run {
 **`Change Style` :** Edit `~/.config/rofi/launchers/type-X/launcher.sh` script and edit the following line to use the style you like.
 
 ```
-
 theme='style-1'
-
 ```
 
 **`Change Colors` :** Edit `~/.config/rofi/launchers/type-X/shared/colors.rasi` file and edit the following line to use the color-scheme you like.
