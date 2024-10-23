@@ -374,6 +374,10 @@ theme='style-1'
 
 > Colors in `type-5` and `type-6` are hard-coded (based on image colors) and can be changed by editing the respective **`style-X.rasi`** file.
 
+## Keyboard shortcut
+
+To run rofi with the custom theme I have to launch the corresponding launcher.sh file in the selected theme directory instead of the single command `rofi`. To make this simpler I create a keyboard shortcut to create this file. Top create a shortcut run the app `Keyboard` --> custom shortcut, select a name a command and a shortcut.
+
 #### Previews
 
 <details>
