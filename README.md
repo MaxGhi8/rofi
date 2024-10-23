@@ -264,7 +264,7 @@ theme='style-1'
 
 ```ini
 type="$HOME/.config/rofi/applets/type-1"
-style='style-1.rasi'
+style='style-7.rasi'
 ```
 
 **`Change Colors` :** Edit `~/.config/rofi/applets/shared/colors.rasi` file and edit the following line to use the color-scheme you like.
