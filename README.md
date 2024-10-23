@@ -229,7 +229,7 @@ To run rofi with the custom theme I have to launch the corresponding launcher.sh
 
 </details>
 
-<hr>
+<hr style="height: 2px">
 
 <details>
 <summary><b>Color Schemes</b></summary>
@@ -391,7 +391,7 @@ theme='style-1'
   <!-- sponsors --><a href="https://github.com/davidtoska"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;15263867?u&#x3D;7f45e973d008c1c9fc573554a95efac83751e726&amp;v&#x3D;4" width="60px" alt="David Toska" /></a><a href="https://github.com/snubbi1954-elementary"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;162145059?u&#x3D;16ee4fee3e95ea7bc1599abdb2ff0ec4a2385ea2&amp;v&#x3D;4" width="60px" alt="Carl Andersen" /></a><a href="https://github.com/12c76dc"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;88608064?u&#x3D;856f093e16e6d33996d2548d871884994b3ee627&amp;v&#x3D;4" width="60px" alt="" /></a><!-- sponsors -->
 </p>
 
----
+<hr style="height:2px">
 
 ### Previews
 
