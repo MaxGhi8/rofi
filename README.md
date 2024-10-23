@@ -377,19 +377,6 @@ theme='style-1'
 ```
 
 > Colors in `type-5` and `type-6` are hard-coded (based on image colors) and can be changed by editing the respective **`style-X.rasi`** file.
-> e--
-
-<p align="center">
-  <a href="https://github.com/sponsors/adi1090x"><img src="previews/sponsor.png" width="256px"></a>
-</p>
-
-<p align="center">
-  <b>Special thanks to all the Sponsors</b>. Maintenance of this project is made possible by you guys. If you'd like to sponsor this project and have your avatar appear below, <a href="https://github.com/sponsors/adi1090x">click here</a> 💖
-</p>
-
-<p align="center">
-  <!-- sponsors --><a href="https://github.com/davidtoska"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;15263867?u&#x3D;7f45e973d008c1c9fc573554a95efac83751e726&amp;v&#x3D;4" width="60px" alt="David Toska" /></a><a href="https://github.com/snubbi1954-elementary"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;162145059?u&#x3D;16ee4fee3e95ea7bc1599abdb2ff0ec4a2385ea2&amp;v&#x3D;4" width="60px" alt="Carl Andersen" /></a><a href="https://github.com/12c76dc"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;88608064?u&#x3D;856f093e16e6d33996d2548d871884994b3ee627&amp;v&#x3D;4" width="60px" alt="" /></a><!-- sponsors -->
-</p>
 
 <hr style="height:2px">
 
