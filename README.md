@@ -114,10 +114,12 @@ drun {
 
 ## Launchers
 
-**`Change Style` :** Edit `~/.config/rofi/launchers/type-X/launcher.sh` script and edit the following line to use the style you like.
+I personally choose type 1 style 7, one-dark theme, JetBrainMono font for the launchers.
+
+**`Change Style` :** Edit `~/.config/rofi/launchers/type-X/launcher.sh` ($X=1$ in my case) script and edit the following line to use the style you like.
 
 ```
-theme='style-1'
+theme='style-7'
 ```
 
 **`Change Colors` :** Edit `~/.config/rofi/launchers/type-X/shared/colors.rasi` file and edit the following line to use the color-scheme you like.
@@ -130,7 +132,7 @@ theme='style-1'
 
 ## Keyboard shortcut
 
-To run rofi with the custom theme I have to launch the corresponding launcher.sh file in the selected theme directory instead of the single command `rofi`. To make this simpler I create a keyboard shortcut to create this file. Top create a shortcut run the app `Keyboard` --> custom shortcut, select a name a command and a shortcut.
+To run rofi with the custom theme I have to launch the corresponding launcher.sh file in the selected theme directory instead of the single command `rofi`. To make this simpler I create a keyboard shortcut to create this file. Top create a shortcut run the app `Keyboard` --> custom shortcut, select a name a command and a shortcut. As default the `launcher.sh` use `rofi -show dmenu` so I clone `launcher.sh` to `launcher_ssh.sh` and use `rofi -show ssh` to start directly the ssh, assigning the two files to two different keyboard shortcuts. In particular I configure `Alt+d` to open dmenu and `Alt+s` to open the ssh, and `Alt+f` for file-browser.
 
 ### Previews
 
@@ -363,6 +365,8 @@ style='style-7.rasi'
 </details>
 
 ## Powermenus
+
+I personally choose type 1 style 1, one-dark theme, JetBrainMono font
 
 **`Change Style` :** Edit `~/.config/rofi/powermenu/type-X/powermenu.sh` script and edit the following line to use the style you like.
 
