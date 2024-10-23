@@ -114,7 +114,24 @@ drun {
 
 ## Launchers
 
-I personally choose type 1 style 7, one-dark theme, JetBrainMono font for the launchers.
+I personally choose type 1 style 7, one-dark theme, JetBrainMono font for the launchers. I modified the type-1/style-7.rasi file like this
+
+```
+configuration {
+	modi:                       "drun,run,filebrowser,window,ssh";
+    show-icons:                 true;
+    display-drun:               " Apps";
+    display-run:                " Run";
+    display-filebrowser:        " Files";
+    display-window:             " Windows";
+    display-ssh:                " SSH";
+	drun-display-format:        "{name}";
+	window-format:              "{w} · {c} · {t}";
+}
+```
+
+to have the ssh window.
+I even configure ssh to be in the active modi of rofi in the file `~/.config/rofi/config.rasi` and add ssh in the modi
 
 **`Change Style` :** Edit `~/.config/rofi/launchers/type-X/launcher.sh` ($X=1$ in my case) script and edit the following line to use the style you like.
 
@@ -252,6 +269,8 @@ To run rofi with the custom theme I have to launch the corresponding launcher.sh
 
 ## Applets
 
+I personally use the screenshot applets with type-2 and keybord shortcut that is `Shift+Windows+S`.
+
 | Applets            | Description                                                     | Required Applications                                                          |
 | :----------------- | :-------------------------------------------------------------- | :----------------------------------------------------------------------------- |
 | **`Apps As Root`** | Open Applications as root                                       | `pkexec` : `alacritty`, `thunar`, `geany`, `ranger`, `vim`                     |
@@ -261,7 +280,7 @@ To run rofi with the custom theme I have to launch the corresponding launcher.sh
 | **`MPD`**          | Control the song play through **`mpd`**                         | `mpd`, `mpc`                                                                   |
 | **`Powermenu`**    | A classic power menu, with Uptime                               | `systemd`, `betterlockscreen`                                                  |
 | **`Quicklinks`**   | Bookmarks for most used websites                                | `firefox` or `chromium` or any other browser                                   |
-| **`Screenshot`**   | Take screenshots using **`maim`**                               | `maim`, `xrandr`, `dunst`, `xclip`                                             |
+| **`Screenshot`**   | Take screenshots using **`maim`**                               | `maim`, `xrandr`, `dunst`, `xclip`, `xdotool`, `viewnoir`                      |
 | **`Volume`**       | Display and control volume with dynamic icons and mute status   | `amixer` and `pavucontrol`                                                     |
 
 > To use your programs with these applets, Edit the scripts in `~/.config/rofi/applets/bin` directory.
@@ -270,7 +289,7 @@ To run rofi with the custom theme I have to launch the corresponding launcher.sh
 
 ```ini
 type="$HOME/.config/rofi/applets/type-1"
-style='style-7.rasi'
+style='style-1.rasi'
 ```
 
 **`Change Colors` :** Edit `~/.config/rofi/applets/shared/colors.rasi` file and edit the following line to use the color-scheme you like.
