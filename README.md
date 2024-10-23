@@ -229,7 +229,7 @@ To run rofi with the custom theme I have to launch the corresponding launcher.sh
 
 </details>
 
----
+<hr>
 
 <details>
 <summary><b>Color Schemes</b></summary>
